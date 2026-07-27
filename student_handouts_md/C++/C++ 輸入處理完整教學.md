@@ -26,6 +26,10 @@
 
 # Section I. ZeroJudge 的輸入是什麼？
 
+<p align="center">
+  <img src="image/ZeroJudge_Input_Flow_img1.png" alt="ZeroJudge 自動輸入資料流程圖" width="760">
+</p>
+
 在一般程式中，我們可能會寫：
 
 ```cpp
@@ -76,6 +80,10 @@ b = 10
 ---
 
 # Section II. 讀題時先問五個問題
+
+<p align="center">
+  <img src="image/Input_Method_Decision_Tree_img1.png" alt="C++ 輸入方式判斷流程圖" width="760">
+</p>
 
 看到題目的 Input 說明時，先不要急著寫程式。
 
@@ -489,6 +497,10 @@ for (int i = 0; i < n; i++) {
 
 # Section VI. 第一行是測資組數 T
 
+<p align="center">
+  <img src="image/Test_Case_T_Groups_img1.png" alt="測資組數 T 與資料分組示意圖" width="760">
+</p>
+
 這是 ZeroJudge 非常常見的輸入格式。
 
 例如：
@@ -603,6 +615,10 @@ int main() {
 ---
 
 # Section VII. 已知 N，再讀取 N 個數字
+
+<p align="center">
+  <img src="image/Read_N_Values_img1.png" alt="讀取 N 個數字與索引示意圖" width="760">
+</p>
 
 輸入：
 
@@ -742,6 +758,10 @@ for (int i = 0; i < n; i++) {
 
 # Section VIII. 讀取矩陣
 
+<p align="center">
+  <img src="image/Matrix_Row_Column_img1.png" alt="矩陣列與欄索引示意圖" width="760">
+</p>
+
 輸入：
 
 ```text
@@ -829,6 +849,10 @@ for (int row = 0; row < rows; row++) {
 
 # Section IX. `cin >> string` 與 `getline()` 的差別
 
+<p align="center">
+  <img src="image/Cin_Vs_Getline_img1.png" alt="cin 與 getline 的差別" width="760">
+</p>
+
 ## 9.1 使用 `cin >>`
 
 輸入：
@@ -903,6 +927,10 @@ int main() {
 ---
 
 # Section X. 混合 `cin` 和 `getline()` 的陷阱
+
+<p align="center">
+  <img src="image/Cin_Getline_Buffer_Problem_img1.png" alt="cin 後殘留換行造成 getline 空字串" width="760">
+</p>
 
 考慮以下輸入：
 
@@ -1049,6 +1077,10 @@ getline(cin, sentence);
 
 # Section XI. 不知道有幾組資料：讀到 EOF
 
+<p align="center">
+  <img src="image/EOF_Read_Loop_img1.png" alt="讀取資料直到 EOF 的流程圖" width="760">
+</p>
+
 題目有時會寫：
 
 ```text
@@ -1154,6 +1186,10 @@ int main() {
 ---
 
 # Section XII. 使用 `stringstream` 拆解一整行
+
+<p align="center">
+  <img src="image/Stringstream_Tokenization_img1.png" alt="stringstream 將一整行拆成 token" width="760">
+</p>
 
 有些題目要求：
 

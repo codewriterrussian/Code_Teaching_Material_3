@@ -26,3 +26,6 @@ Thumbs.db
 # Local test / old files
 /1.hs
 /lesson_1.ipynb
+
+# Temporary backup files
+*.bak
