@@ -1,0 +1,5 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '.c_cpp_build/notebook_program_cpp'
+relocations:     []
+...
