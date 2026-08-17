@@ -1,11 +1,20 @@
+
 #include <iostream>
 using namespace std;
 
-int main() {
-    long long a, b, c;
-    cin >> a >> b >> c;
+void calculate(int a, int b, int& sum, int& product){
+    sum = a + b;
+    product = a * b;
+}
 
-    cout << b * b - 4 * a * c << "\n";
+int main() {
+
+    int s,p;
+
+    calculate(3,4,s,p);
+
+    cout << s <<endl;
+    cout << p <<endl;
 
     return 0;
 }
