@@ -1,20 +1,12 @@
 
 #include <iostream>
-using namespace std;
-
-void calculate(int a, int b, int& sum, int& product){
-    sum = a + b;
-    product = a * b;
-}
 
 int main() {
+    int values[] = {10, 20, 30};
 
-    int s,p;
-
-    calculate(3,4,s,p);
-
-    cout << s <<endl;
-    cout << p <<endl;
+    for (int value : values) {
+        std::cout << value << '\n';
+    }
 
     return 0;
 }
