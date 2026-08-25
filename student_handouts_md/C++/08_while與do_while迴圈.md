@@ -159,7 +159,7 @@ cout << "Hello\n";
 只要條件維持 `true`，迴圈就繼續。
 
 
-![圖：if 與 while：一次判斷與重複執行](images/CPP_Lesson_08_img01_if_vs_while.png)
+![圖：if 與 while：一次判斷與重複執行](images/lesson_08/CPP_Lesson_08_img01_if_vs_while.png)
 
 ---
 
@@ -181,7 +181,7 @@ while (condition) {
 ```
 
 
-![圖：while 的完整循環](images/CPP_Lesson_08_img02_while_basic_cycle.png)
+![圖：while 的完整循環](images/lesson_08/CPP_Lesson_08_img02_while_basic_cycle.png)
 
 ---
 
@@ -230,7 +230,7 @@ while (number <= 5) {    // 條件
 ```
 
 
-![圖：while 的初始化、條件、主體與更新](images/CPP_Lesson_08_img03_four_parts_of_while.png)
+![圖：while 的初始化、條件、主體與更新](images/lesson_08/CPP_Lesson_08_img03_four_parts_of_while.png)
 
 ---
 
@@ -288,7 +288,7 @@ number = 6
 | 6 | `false` | 無 | 結束 |
 
 
-![圖：while 從 1 到 5 的逐輪追蹤](images/CPP_Lesson_08_img04_while_1_to_5_trace.png)
+![圖：while 從 1 到 5 的逐輪追蹤](images/lesson_08/CPP_Lesson_08_img04_while_1_to_5_trace.png)
 
 ---
 
@@ -333,7 +333,7 @@ while (number <= 5) {
 的情況。
 
 
-![圖：while 為什麼可能執行零次](images/CPP_Lesson_08_img05_while_zero_iterations.png)
+![圖：while 為什麼可能執行零次](images/lesson_08/CPP_Lesson_08_img05_while_zero_iterations.png)
 
 ---
 
@@ -361,7 +361,7 @@ int main() {
 ```
 
 
-![圖：正向計數與倒數](images/CPP_Lesson_08_img06_increment_vs_decrement.png)
+![圖：正向計數與倒數](images/lesson_08/CPP_Lesson_08_img06_increment_vs_decrement.png)
 
 ---
 
@@ -428,7 +428,7 @@ int count = 0;
 每遇到一筆符合條件的資料，就增加一次。
 
 
-![圖：Counter 與 Accumulator 的差異](images/CPP_Lesson_08_img07_counter_vs_accumulator.png)
+![圖：Counter 與 Accumulator 的差異](images/lesson_08/CPP_Lesson_08_img07_counter_vs_accumulator.png)
 
 ---
 
@@ -485,7 +485,7 @@ int main() {
 | 5 | 10 | 15 |
 
 
-![圖：累加器 total 的逐輪變化](images/CPP_Lesson_08_img08_accumulator_trace.png)
+![圖：累加器 total 的逐輪變化](images/lesson_08/CPP_Lesson_08_img08_accumulator_trace.png)
 
 ---
 
@@ -537,7 +537,7 @@ while (number <= 5) {
 條件永遠為 `true`，形成無窮迴圈。
 
 
-![圖：忘記更新造成無窮迴圈](images/CPP_Lesson_08_img09_infinite_loop_no_update.png)
+![圖：忘記更新造成無窮迴圈](images/lesson_08/CPP_Lesson_08_img09_infinite_loop_no_update.png)
 
 ---
 
@@ -573,7 +573,7 @@ while (number <= 5) {
 條件檢查 `number`，但更新的是 `other`。
 
 
-![圖：無窮迴圈的三種常見原因](images/CPP_Lesson_08_img10_three_infinite_loop_causes.png)
+![圖：無窮迴圈的三種常見原因](images/lesson_08/CPP_Lesson_08_img10_three_infinite_loop_causes.png)
 
 ---
 
@@ -593,7 +593,7 @@ while (number <= 5); {
 若條件保持為真，程式會卡在空迴圈中。
 
 
-![圖：while 後多餘分號](images/CPP_Lesson_08_img11_while_semicolon_error.png)
+![圖：while 後多餘分號](images/lesson_08/CPP_Lesson_08_img11_while_semicolon_error.png)
 
 ---
 
@@ -615,7 +615,7 @@ while (number <= 5); {
 ```
 
 
-![圖：哨兵值 Sentinel 的概念](images/CPP_Lesson_08_img12_sentinel_concept.png)
+![圖：哨兵值 Sentinel 的概念](images/lesson_08/CPP_Lesson_08_img12_sentinel_concept.png)
 
 ---
 
@@ -632,7 +632,7 @@ while (number <= 5); {
 ```
 
 
-![圖：哨兵值不是一般資料](images/CPP_Lesson_08_img13_sentinel_not_data.png)
+![圖：哨兵值不是一般資料](images/lesson_08/CPP_Lesson_08_img13_sentinel_not_data.png)
 
 ---
 
@@ -686,7 +686,7 @@ cin >> value;
 這種方式稱為 priming read。
 
 
-![圖：Priming read 預讀流程](images/CPP_Lesson_08_img14_priming_read.png)
+![圖：Priming read 預讀流程](images/lesson_08/CPP_Lesson_08_img14_priming_read.png)
 
 ---
 
@@ -725,7 +725,7 @@ int count = 0;
 ```
 
 
-![圖：平均值需要 total 與 count](images/CPP_Lesson_08_img15_average_total_count.png)
+![圖：平均值需要 total 與 count](images/lesson_08/CPP_Lesson_08_img15_average_total_count.png)
 
 ---
 
@@ -789,7 +789,7 @@ total / 0
 ```
 
 
-![圖：count 等於零的平均值保護](images/CPP_Lesson_08_img16_average_zero_count_guard.png)
+![圖：count 等於零的平均值保護](images/lesson_08/CPP_Lesson_08_img16_average_zero_count_guard.png)
 
 ---
 
@@ -822,7 +822,7 @@ while (cin >> value) {
 只要讀取成功，條件就成立。
 
 
-![圖：使用 cin 作為 while 條件](images/CPP_Lesson_08_img18_cin_as_condition.png)
+![圖：使用 cin 作為 while 條件](images/lesson_08/CPP_Lesson_08_img18_cin_as_condition.png)
 
 ---
 
@@ -860,7 +860,7 @@ int main() {
 | 讀取失敗 | 輸入型別不符合 |
 
 
-![圖：Sentinel 與 EOF 比較](images/CPP_Lesson_08_img17_sentinel_vs_eof.png)
+![圖：Sentinel 與 EOF 比較](images/lesson_08/CPP_Lesson_08_img17_sentinel_vs_eof.png)
 
 ---
 
@@ -928,7 +928,7 @@ int main() {
 ```
 
 
-![圖：while 輸入驗證流程](images/CPP_Lesson_08_img19_input_validation_loop.png)
+![圖：while 輸入驗證流程](images/lesson_08/CPP_Lesson_08_img19_input_validation_loop.png)
 
 ---
 
@@ -981,7 +981,7 @@ do {
 是必要的。
 
 
-![圖：do-while 尾端分號](images/CPP_Lesson_08_img22_do_while_semicolon.png)
+![圖：do-while 尾端分號](images/lesson_08/CPP_Lesson_08_img22_do_while_semicolon.png)
 
 ---
 
@@ -1014,7 +1014,7 @@ do {
 ```
 
 
-![圖：相同初始值下的零次與至少一次](images/CPP_Lesson_08_img21_zero_vs_one_iteration.png)
+![圖：相同初始值下的零次與至少一次](images/lesson_08/CPP_Lesson_08_img21_zero_vs_one_iteration.png)
 
 ---
 
@@ -1059,7 +1059,7 @@ int main() {
 | 常見用途 | 可能完全不執行 | 選單、輸入驗證 |
 
 
-![圖：while 與 do-while 比較](images/CPP_Lesson_08_img20_while_vs_do_while.png)
+![圖：while 與 do-while 比較](images/lesson_08/CPP_Lesson_08_img20_while_vs_do_while.png)
 
 ---
 
@@ -1119,7 +1119,7 @@ int main() {
 因此適合 `do-while`。
 
 
-![圖：do-while 重複選單流程](images/CPP_Lesson_08_img23_do_while_menu.png)
+![圖：do-while 重複選單流程](images/lesson_08/CPP_Lesson_08_img23_do_while_menu.png)
 
 ---
 
@@ -1240,7 +1240,7 @@ while (hasMoreData)
 比不具說明的數字更容易閱讀。
 
 
-![圖：三種控制迴圈結束的方法](images/CPP_Lesson_08_img24_three_loop_exit_methods.png)
+![圖：三種控制迴圈結束的方法](images/lesson_08/CPP_Lesson_08_img24_three_loop_exit_methods.png)
 
 ---
 
@@ -1292,7 +1292,7 @@ int main() {
 ```
 
 
-![圖：while true 搭配 break 的離開點](images/CPP_Lesson_08_img25_while_true_break_exit.png)
+![圖：while true 搭配 break 的離開點](images/lesson_08/CPP_Lesson_08_img25_while_true_break_exit.png)
 
 ---
 
@@ -1326,7 +1326,7 @@ while (true) {
 兩種都可使用。
 
 
-![圖：兩種哨兵迴圈寫法比較](images/CPP_Lesson_08_img26_two_sentinel_patterns.png)
+![圖：兩種哨兵迴圈寫法比較](images/lesson_08/CPP_Lesson_08_img26_two_sentinel_patterns.png)
 
 ---
 
@@ -1358,7 +1358,7 @@ continue;
 ```
 
 
-![圖：break 與 continue 的差異](images/CPP_Lesson_08_img27_break_vs_continue.png)
+![圖：break 與 continue 的差異](images/lesson_08/CPP_Lesson_08_img27_break_vs_continue.png)
 
 ---
 
@@ -1395,7 +1395,7 @@ int main() {
 輸入五個整數，但只累加非負值。
 
 
-![圖：使用 continue 忽略負數](images/CPP_Lesson_08_img28_continue_filter_negative.png)
+![圖：使用 continue 忽略負數](images/lesson_08/CPP_Lesson_08_img28_continue_filter_negative.png)
 
 ---
 
@@ -1418,7 +1418,7 @@ while (number < 5) {
 當 `number == 2` 時，`++number` 被跳過，形成無窮迴圈。
 
 
-![圖：continue 跳過更新造成無窮迴圈](images/CPP_Lesson_08_img29_continue_skips_update.png)
+![圖：continue 跳過更新造成無窮迴圈](images/lesson_08/CPP_Lesson_08_img29_continue_skips_update.png)
 
 ---
 
@@ -1493,7 +1493,7 @@ int main() {
 輸出六組座標。
 
 
-![圖：Nested while 的外層與內層](images/CPP_Lesson_08_img30_nested_while_rows_columns.png)
+![圖：Nested while 的外層與內層](images/lesson_08/CPP_Lesson_08_img30_nested_while_rows_columns.png)
 
 ---
 
@@ -1508,7 +1508,7 @@ int column = 1;
 完整巢狀迴圈與圖形題會在後續章節進一步整理。
 
 
-![圖：內層變數每輪重新初始化](images/CPP_Lesson_08_img31_inner_loop_reinitialization.png)
+![圖：內層變數每輪重新初始化](images/lesson_08/CPP_Lesson_08_img31_inner_loop_reinitialization.png)
 
 ---
 
@@ -2052,7 +2052,7 @@ while (row <= 2) {
 20. 迴圈條件過度複雜，難以確認終止。
 
 
-![圖：while 與 do-while 常見錯誤總覽](images/CPP_Lesson_08_img32_common_while_errors.png)
+![圖：while 與 do-while 常見錯誤總覽](images/lesson_08/CPP_Lesson_08_img32_common_while_errors.png)
 
 ---
 

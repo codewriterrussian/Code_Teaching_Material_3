@@ -2,7 +2,7 @@
 
 <!-- lesson-image: C_Lesson_08_img17_while_vs_do_while.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img17_while_vs_do_while.png"
+  <img src="images/lesson_08/C_Lesson_08_img17_while_vs_do_while.png"
        alt="C 語言教材圖解：while vs do while"
        width="700">
 </p>
@@ -22,7 +22,7 @@
 
 <!-- lesson-image: C_Lesson_08_img03_loop_three_parts.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img03_loop_three_parts.png"
+  <img src="images/lesson_08/C_Lesson_08_img03_loop_three_parts.png"
        alt="C 語言教材圖解：loop three parts"
        width="700">
 </p>
@@ -37,7 +37,7 @@
 
 <!-- lesson-image: C_Lesson_08_img12_sentinel_input_pattern.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img12_sentinel_input_pattern.png"
+  <img src="images/lesson_08/C_Lesson_08_img12_sentinel_input_pattern.png"
        alt="C 語言教材圖解：sentinel input pattern"
        width="700">
 </p>
@@ -52,7 +52,7 @@
 
 <!-- lesson-image: C_Lesson_08_img20_off_by_one_checklist.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img20_off_by_one_checklist.png"
+  <img src="images/lesson_08/C_Lesson_08_img20_off_by_one_checklist.png"
        alt="C 語言教材圖解：off by one checklist"
        width="760">
 </p>
@@ -215,7 +215,7 @@ while (count <= 10) {
 
 <!-- lesson-image: C_Lesson_08_img06_less_than_vs_less_equal.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img06_less_than_vs_less_equal.png"
+  <img src="images/lesson_08/C_Lesson_08_img06_less_than_vs_less_equal.png"
        alt="C 語言教材圖解：less than vs less equal"
        width="700">
 </p>
@@ -240,7 +240,7 @@ while (count <= 10)
 
 <!-- lesson-image: C_Lesson_08_img07_print_before_vs_after_update.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img07_print_before_vs_after_update.png"
+  <img src="images/lesson_08/C_Lesson_08_img07_print_before_vs_after_update.png"
        alt="C 語言教材圖解：print before vs after update"
        width="700">
 </p>
@@ -293,7 +293,7 @@ count++;
 
 <!-- lesson-image: C_Lesson_08_img13_accumulator_process.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img13_accumulator_process.png"
+  <img src="images/lesson_08/C_Lesson_08_img13_accumulator_process.png"
        alt="C 語言教材圖解：accumulator process"
        width="700">
 </p>
@@ -325,7 +325,7 @@ while (number != 0) {
 
 <!-- lesson-image: C_Lesson_08_img15_average_sum_count.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img15_average_sum_count.png"
+  <img src="images/lesson_08/C_Lesson_08_img15_average_sum_count.png"
        alt="C 語言教材圖解：average sum count"
        width="700">
 </p>
@@ -360,7 +360,7 @@ average = (float)sum / count;
 
 <!-- lesson-image: C_Lesson_08_img16_zero_data_average_guard.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img16_zero_data_average_guard.png"
+  <img src="images/lesson_08/C_Lesson_08_img16_zero_data_average_guard.png"
        alt="C 語言教材圖解：zero data average guard"
        width="700">
 </p>
@@ -489,7 +489,7 @@ if (guess > answer) {
 
 <!-- lesson-image: C_Lesson_08_img01_if_vs_while.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img01_if_vs_while.png"
+  <img src="images/lesson_08/C_Lesson_08_img01_if_vs_while.png"
        alt="C 語言教材圖解：if vs while"
        width="700">
 </p>
@@ -529,7 +529,7 @@ while (condition) {
 
 <!-- lesson-image: C_Lesson_08_img02_while_syntax_cycle.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img02_while_syntax_cycle.png"
+  <img src="images/lesson_08/C_Lesson_08_img02_while_syntax_cycle.png"
        alt="C 語言教材圖解：while syntax cycle"
        width="700">
 </p>
@@ -846,7 +846,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_08_img08_priming_read_while.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img08_priming_read_while.png"
+  <img src="images/lesson_08/C_Lesson_08_img08_priming_read_while.png"
        alt="C 語言教材圖解：priming read while"
        width="700">
 </p>
@@ -884,7 +884,7 @@ guess != answer
 
 <!-- lesson-image: C_Lesson_08_img04_while_trace_0_to_2.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img04_while_trace_0_to_2.png"
+  <img src="images/lesson_08/C_Lesson_08_img04_while_trace_0_to_2.png"
        alt="C 語言教材圖解：while trace 0 to 2"
        width="700">
 </p>
@@ -997,7 +997,7 @@ count == 0
 
 <!-- lesson-image: C_Lesson_08_img11_sentinel_value.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img11_sentinel_value.png"
+  <img src="images/lesson_08/C_Lesson_08_img11_sentinel_value.png"
        alt="C 語言教材圖解：sentinel value"
        width="700">
 </p>
@@ -1189,7 +1189,7 @@ if (count > 0)
 
 <!-- lesson-image: C_Lesson_08_img14_counter_vs_accumulator.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img14_counter_vs_accumulator.png"
+  <img src="images/lesson_08/C_Lesson_08_img14_counter_vs_accumulator.png"
        alt="C 語言教材圖解：counter vs accumulator"
        width="700">
 </p>
@@ -1207,7 +1207,7 @@ if (count > 0)
 
 <!-- lesson-image: C_Lesson_08_img18_do_while_syntax.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img18_do_while_syntax.png"
+  <img src="images/lesson_08/C_Lesson_08_img18_do_while_syntax.png"
        alt="C 語言教材圖解：do while syntax"
        width="700">
 </p>
@@ -1293,7 +1293,7 @@ do {
 
 <!-- lesson-image: C_Lesson_08_img19_do_while_guessing.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img19_do_while_guessing.png"
+  <img src="images/lesson_08/C_Lesson_08_img19_do_while_guessing.png"
        alt="C 語言教材圖解：do while guessing"
        width="700">
 </p>
@@ -1830,7 +1830,7 @@ count < 3
 
 <!-- lesson-image: C_Lesson_08_img05_infinite_loop_missing_update.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img05_infinite_loop_missing_update.png"
+  <img src="images/lesson_08/C_Lesson_08_img05_infinite_loop_missing_update.png"
        alt="C 語言教材圖解：infinite loop missing update"
        width="700">
 </p>
@@ -2144,7 +2144,7 @@ while (number != sentinel) {
 
 <!-- lesson-image: C_Lesson_08_img10_guess_counter_position.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img10_guess_counter_position.png"
+  <img src="images/lesson_08/C_Lesson_08_img10_guess_counter_position.png"
        alt="C 語言教材圖解：guess counter position"
        width="700">
 </p>
@@ -2204,7 +2204,7 @@ while (number != sentinel) {
 
 <!-- lesson-image: C_Lesson_08_img09_uninitialized_condition_variable.png -->
 <p align="center">
-  <img src="images/C_Lesson_08_img09_uninitialized_condition_variable.png"
+  <img src="images/lesson_08/C_Lesson_08_img09_uninitialized_condition_variable.png"
        alt="C 語言教材圖解：uninitialized condition variable"
        width="700">
 </p>

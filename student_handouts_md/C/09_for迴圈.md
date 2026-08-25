@@ -125,7 +125,7 @@ for (count = 10; count < 3; count++) {
 
 <!-- lesson-image: C_Lesson_09_img04_body_before_iteration.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img04_body_before_iteration.png"
+  <img src="images/lesson_09/C_Lesson_09_img04_body_before_iteration.png"
        alt="C 語言教材圖解：body before iteration"
        width="700">
 </p>
@@ -169,7 +169,7 @@ for (count = 1; count <= 10; count++) {
 
 <!-- lesson-image: C_Lesson_09_img06_less_than_vs_less_equal.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img06_less_than_vs_less_equal.png"
+  <img src="images/lesson_09/C_Lesson_09_img06_less_than_vs_less_equal.png"
        alt="C 語言教材圖解：less than vs less equal"
        width="700">
 </p>
@@ -192,7 +192,7 @@ for (count = 1; count <= 10; count++)
 
 <!-- lesson-image: C_Lesson_09_img08_wrong_reverse_update.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img08_wrong_reverse_update.png"
+  <img src="images/lesson_09/C_Lesson_09_img08_wrong_reverse_update.png"
        alt="C 語言教材圖解：wrong reverse update"
        width="700">
 </p>
@@ -377,7 +377,7 @@ for (number = 1; number <= 10; number++) {
 
 <!-- lesson-image: C_Lesson_09_img22_continue_code_position.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img22_continue_code_position.png"
+  <img src="images/lesson_09/C_Lesson_09_img22_continue_code_position.png"
        alt="C 語言教材圖解：continue code position"
        width="700">
 </p>
@@ -449,7 +449,7 @@ while (count <= 10) {
 
 <!-- lesson-image: C_Lesson_09_img02_for_syntax_parts.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img02_for_syntax_parts.png"
+  <img src="images/lesson_09/C_Lesson_09_img02_for_syntax_parts.png"
        alt="C 語言教材圖解：for syntax parts"
        width="700">
 </p>
@@ -481,7 +481,7 @@ for (count = 1; count <= 10; count++) {
 
 <!-- lesson-image: C_Lesson_09_img03_for_execution_order.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img03_for_execution_order.png"
+  <img src="images/lesson_09/C_Lesson_09_img03_for_execution_order.png"
        alt="C 語言教材圖解：for execution order"
        width="700">
 </p>
@@ -508,7 +508,7 @@ for (count = 1; count <= 10; count++) {
 
 <!-- lesson-image: C_Lesson_09_img01_while_vs_for.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img01_while_vs_for.png"
+  <img src="images/lesson_09/C_Lesson_09_img01_while_vs_for.png"
        alt="C 語言教材圖解：while vs for"
        width="700">
 </p>
@@ -573,7 +573,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img05_for_trace_1_to_3.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img05_for_trace_1_to_3.png"
+  <img src="images/lesson_09/C_Lesson_09_img05_for_trace_1_to_3.png"
        alt="C 語言教材圖解：for trace 1 to 3"
        width="700">
 </p>
@@ -681,7 +681,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img07_forward_vs_reverse_loop.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img07_forward_vs_reverse_loop.png"
+  <img src="images/lesson_09/C_Lesson_09_img07_forward_vs_reverse_loop.png"
        alt="C 語言教材圖解：forward vs reverse loop"
        width="700">
 </p>
@@ -714,7 +714,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img09_direct_countdown_vs_index_transform.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img09_direct_countdown_vs_index_transform.png"
+  <img src="images/lesson_09/C_Lesson_09_img09_direct_countdown_vs_index_transform.png"
        alt="C 語言教材圖解：direct countdown vs index transform"
        width="700">
 </p>
@@ -755,7 +755,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img10_iteration_step_sequences.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img10_iteration_step_sequences.png"
+  <img src="images/lesson_09/C_Lesson_09_img10_iteration_step_sequences.png"
        alt="C 語言教材圖解：iteration step sequences"
        width="700">
 </p>
@@ -814,7 +814,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img13_index_to_odd_number.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img13_index_to_odd_number.png"
+  <img src="images/lesson_09/C_Lesson_09_img13_index_to_odd_number.png"
        alt="C 語言教材圖解：index to odd number"
        width="700">
 </p>
@@ -926,7 +926,7 @@ for (number = 1; number <= 10; number++) {
 
 <!-- lesson-image: C_Lesson_09_img11_three_ways_generate_odds.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img11_three_ways_generate_odds.png"
+  <img src="images/lesson_09/C_Lesson_09_img11_three_ways_generate_odds.png"
        alt="C 語言教材圖解：three ways generate odds"
        width="700">
 </p>
@@ -1076,7 +1076,7 @@ for (i = 1; i <= 100; i++) {
 
 <!-- lesson-image: C_Lesson_09_img14_for_accumulator_trace.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img14_for_accumulator_trace.png"
+  <img src="images/lesson_09/C_Lesson_09_img14_for_accumulator_trace.png"
        alt="C 語言教材圖解：for accumulator trace"
        width="700">
 </p>
@@ -1135,7 +1135,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img16_loop_sum_vs_formula.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img16_loop_sum_vs_formula.png"
+  <img src="images/lesson_09/C_Lesson_09_img16_loop_sum_vs_formula.png"
        alt="C 語言教材圖解：loop sum vs formula"
        width="700">
 </p>
@@ -1222,7 +1222,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img17_horizontal_vs_vertical_output.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img17_horizontal_vs_vertical_output.png"
+  <img src="images/lesson_09/C_Lesson_09_img17_horizontal_vs_vertical_output.png"
        alt="C 語言教材圖解：horizontal vs vertical output"
        width="700">
 </p>
@@ -1269,7 +1269,7 @@ for (count = 1; count <= n; count++) {
 
 <!-- lesson-image: C_Lesson_09_img18_break_flow.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img18_break_flow.png"
+  <img src="images/lesson_09/C_Lesson_09_img18_break_flow.png"
        alt="C 語言教材圖解：break flow"
        width="700">
 </p>
@@ -1350,7 +1350,7 @@ for (number = maximum;
 
 <!-- lesson-image: C_Lesson_09_img21_reverse_search_with_break.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img21_reverse_search_with_break.png"
+  <img src="images/lesson_09/C_Lesson_09_img21_reverse_search_with_break.png"
        alt="C 語言教材圖解：reverse search with break"
        width="700">
 </p>
@@ -1393,7 +1393,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img19_continue_flow.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img19_continue_flow.png"
+  <img src="images/lesson_09/C_Lesson_09_img19_continue_flow.png"
        alt="C 語言教材圖解：continue flow"
        width="700">
 </p>
@@ -1438,7 +1438,7 @@ int main(void) {
 
 <!-- lesson-image: C_Lesson_09_img20_break_vs_continue.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img20_break_vs_continue.png"
+  <img src="images/lesson_09/C_Lesson_09_img20_break_vs_continue.png"
        alt="C 語言教材圖解：break vs continue"
        width="700">
 </p>
@@ -1522,7 +1522,7 @@ for (number = 1; number <= 9; number += 2)
 
 <!-- lesson-image: C_Lesson_09_img12_generation_vs_filtering.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img12_generation_vs_filtering.png"
+  <img src="images/lesson_09/C_Lesson_09_img12_generation_vs_filtering.png"
        alt="C 語言教材圖解：generation vs filtering"
        width="700">
 </p>
@@ -1549,7 +1549,7 @@ number = 2 * count - 1;
 
 <!-- lesson-image: C_Lesson_09_img15_control_variable_vs_accumulator.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img15_control_variable_vs_accumulator.png"
+  <img src="images/lesson_09/C_Lesson_09_img15_control_variable_vs_accumulator.png"
        alt="C 語言教材圖解：control variable vs accumulator"
        width="700">
 </p>
@@ -2211,7 +2211,7 @@ number += 3
 
 <!-- lesson-image: C_Lesson_09_img23_off_by_one_checklist.png -->
 <p align="center">
-  <img src="images/C_Lesson_09_img23_off_by_one_checklist.png"
+  <img src="images/lesson_09/C_Lesson_09_img23_off_by_one_checklist.png"
        alt="C 語言教材圖解：off by one checklist"
        width="760">
 </p>

@@ -156,7 +156,7 @@ count < 5
 ```
 
 
-![圖：從 while 到 for 的控制資訊整理](images/CPP_Lesson_09_img01_while_to_for.png)
+![圖：從 while 到 for 的控制資訊整理](images/lesson_09/CPP_Lesson_09_img01_while_to_for.png)
 
 ---
 
@@ -179,7 +179,7 @@ for (初始化; 條件; 更新) {
 ```
 
 
-![圖：for 的四個部分](images/CPP_Lesson_09_img02_four_parts_of_for.png)
+![圖：for 的四個部分](images/lesson_09/CPP_Lesson_09_img02_four_parts_of_for.png)
 
 ---
 
@@ -226,7 +226,7 @@ for (int number = 1; number <= 5; ++number)
 3. 每輪結束後執行 `++number`。
 
 
-![圖：for 真正的執行順序](images/CPP_Lesson_09_img03_for_execution_order.png)
+![圖：for 真正的執行順序](images/lesson_09/CPP_Lesson_09_img03_for_execution_order.png)
 
 ---
 
@@ -296,7 +296,7 @@ i = 0, 1, 2, 3, 4
 這種形式很適合之後的索引走訪。
 
 
-![圖：從 0 到 n-1 為什麼剛好執行 n 次](images/CPP_Lesson_09_img04_zero_to_n_minus_one.png)
+![圖：從 0 到 n-1 為什麼剛好執行 n 次](images/lesson_09/CPP_Lesson_09_img04_zero_to_n_minus_one.png)
 
 ---
 
@@ -342,7 +342,7 @@ Off-by-one error 是：
 - 終點包含與不包含判斷錯誤
 
 
-![圖：小於與小於等於造成的 Off-by-one](images/CPP_Lesson_09_img05_off_by_one.png)
+![圖：小於與小於等於造成的 Off-by-one](images/lesson_09/CPP_Lesson_09_img05_off_by_one.png)
 
 ---
 
@@ -401,7 +401,7 @@ while (i < 5) {
 | 更新 | 主體尾端 |
 
 
-![圖：for 與 while 的一一對應](images/CPP_Lesson_09_img06_for_while_mapping.png)
+![圖：for 與 while 的一一對應](images/lesson_09/CPP_Lesson_09_img06_for_while_mapping.png)
 
 ---
 
@@ -422,7 +422,7 @@ while (i < 5) {
 兩者都能表達許多相同問題，但可讀性不同。
 
 
-![圖：何時使用 for 或 while](images/CPP_Lesson_09_img07_for_vs_while_choice.png)
+![圖：何時使用 for 或 while](images/lesson_09/CPP_Lesson_09_img07_for_vs_while_choice.png)
 
 ---
 
@@ -501,7 +501,7 @@ for (int number = 3; number <= 15; number += 3) {
 ```
 
 
-![圖：for 的正向、倒數與不同步長](images/CPP_Lesson_09_img08_for_directions_steps.png)
+![圖：for 的正向、倒數與不同步長](images/lesson_09/CPP_Lesson_09_img08_for_directions_steps.png)
 
 ---
 
@@ -556,7 +556,7 @@ for (...) {
 ```
 
 
-![圖：累加器必須放在 for 外保存狀態](images/CPP_Lesson_09_img10_accumulator_scope.png)
+![圖：累加器必須放在 for 外保存狀態](images/lesson_09/CPP_Lesson_09_img10_accumulator_scope.png)
 
 ---
 
@@ -664,7 +664,7 @@ long long result = 1;
 結果會永遠是 `0`。
 
 
-![圖：加法累加與階乘累乘](images/CPP_Lesson_09_img11_sum_vs_product_accumulator.png)
+![圖：加法累加與階乘累乘](images/lesson_09/CPP_Lesson_09_img11_sum_vs_product_accumulator.png)
 
 ---
 
@@ -798,7 +798,7 @@ break 只會離開最內層目前所在的迴圈
 完整巢狀迴圈會在下一章說明。
 
 
-![圖：break 與 continue 比較](images/CPP_Lesson_09_img12_break_vs_continue.png)
+![圖：break 與 continue 比較](images/lesson_09/CPP_Lesson_09_img12_break_vs_continue.png)
 
 ---
 
@@ -846,7 +846,7 @@ for (int i = 0; i < 5; ++i)
 中的 `++i` 不會因 `continue` 而永久被跳過。
 
 
-![圖：for 遇到 continue 仍會執行更新區](images/CPP_Lesson_09_img13_for_continue_update.png)
+![圖：for 遇到 continue 仍會執行更新區](images/lesson_09/CPP_Lesson_09_img13_for_continue_update.png)
 
 ---
 
@@ -891,7 +891,7 @@ while (true) {
 ```
 
 
-![圖：for 雙分號形成無窮迴圈](images/CPP_Lesson_09_img14_for_infinite_loop.png)
+![圖：for 雙分號形成無窮迴圈](images/lesson_09/CPP_Lesson_09_img14_for_infinite_loop.png)
 
 ---
 
@@ -999,7 +999,7 @@ cout << "After: "
 但不要只為了方便而擴大不必要的作用域。
 
 
-![圖：for 迴圈變數的作用域](images/CPP_Lesson_09_img15_for_variable_scope.png)
+![圖：for 迴圈變數的作用域](images/lesson_09/CPP_Lesson_09_img15_for_variable_scope.png)
 
 ---
 
@@ -1058,7 +1058,7 @@ for (元素宣告 : 可走訪資料) {
 ```
 
 
-![圖：傳統 for 與 Range-Based for](images/CPP_Lesson_09_img16_traditional_vs_range_for.png)
+![圖：傳統 for 與 Range-Based for](images/lesson_09/CPP_Lesson_09_img16_traditional_vs_range_for.png)
 
 ---
 
@@ -1091,7 +1091,7 @@ e
 ```
 
 
-![圖：Range-Based for 走訪字串](images/CPP_Lesson_09_img17_range_for_string.png)
+![圖：Range-Based for 走訪字串](images/lesson_09/CPP_Lesson_09_img17_range_for_string.png)
 
 ---
 
@@ -1190,7 +1190,7 @@ int main() {
 ```
 
 
-![圖：修改副本不會改變原陣列](images/CPP_Lesson_09_img19_modifying_copy.png)
+![圖：修改副本不會改變原陣列](images/lesson_09/CPP_Lesson_09_img19_modifying_copy.png)
 
 ---
 
@@ -1203,7 +1203,7 @@ int main() {
 - 希望取得獨立副本
 
 
-![圖：Range-Based for 的副本與參考](images/CPP_Lesson_09_img18_copy_vs_reference.png)
+![圖：Range-Based for 的副本與參考](images/lesson_09/CPP_Lesson_09_img18_copy_vs_reference.png)
 
 ---
 
@@ -1330,7 +1330,7 @@ value 的型別會推導為 int
 | `const auto value` | 唯讀副本，通常較少需要 |
 
 
-![圖：auto、auto& 與 const auto&](images/CPP_Lesson_09_img20_range_for_forms.png)
+![圖：auto、auto& 與 const auto&](images/lesson_09/CPP_Lesson_09_img20_range_for_forms.png)
 
 ---
 
@@ -1441,7 +1441,7 @@ for (int value : values) {
 ```
 
 
-![圖：索引與元素的差異](images/CPP_Lesson_09_img21_index_vs_element.png)
+![圖：索引與元素的差異](images/lesson_09/CPP_Lesson_09_img21_index_vs_element.png)
 
 ---
 
@@ -1481,7 +1481,7 @@ for (int index = 0; index < 4; ++index) {
 ```
 
 
-![圖：for、while 與 Range-Based for 的選擇](images/CPP_Lesson_09_img22_choose_loop_type.png)
+![圖：for、while 與 Range-Based for 的選擇](images/lesson_09/CPP_Lesson_09_img22_choose_loop_type.png)
 
 ---
 
@@ -1516,7 +1516,7 @@ for (int i = 0; i < 5; --i) {
 `i` 越來越小，仍持續 `< 5`，形成無窮迴圈。
 
 
-![圖：錯誤更新方向造成無窮迴圈](images/CPP_Lesson_09_img09_wrong_update_direction.png)
+![圖：錯誤更新方向造成無窮迴圈](images/lesson_09/CPP_Lesson_09_img09_wrong_update_direction.png)
 
 ---
 
@@ -2108,7 +2108,7 @@ for (int i = 1; i < 1; ++i) {
 20. 為了縮短程式，把太多控制寫在同一行。
 
 
-![圖：for 與 Range-Based for 常見錯誤總覽](images/CPP_Lesson_09_img23_common_for_errors.png)
+![圖：for 與 Range-Based for 常見錯誤總覽](images/lesson_09/CPP_Lesson_09_img23_common_for_errors.png)
 
 ---
 
