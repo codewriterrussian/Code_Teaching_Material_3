@@ -11,7 +11,7 @@ int main() {
 
     cout << a.size() << endl;
 
-    for (int i = 0; i < a.size(); i++) {
+    for (size_t i = 0; i < a.size(); i++) {
         cout << a[i] << " ";
     }
 
