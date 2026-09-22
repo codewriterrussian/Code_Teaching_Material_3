@@ -1,19 +1,13 @@
-
 #include <iostream>
-#include <vector>
 using namespace std;
 
 int main() {
-    vector<int> a = {10, 20, 30};
+    int x = 10;
+    int *p = &x;
 
-    a.push_back(40);
-    a.push_back(50);
+    *p = 50;
 
-    cout << a.size() << endl;
-
-    for (size_t i = 0; i < a.size(); i++) {
-        cout << a[i] << " ";
-    }
+    cout << x << endl;
 
     return 0;
 }
