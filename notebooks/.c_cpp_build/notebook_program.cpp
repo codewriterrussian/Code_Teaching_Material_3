@@ -1,13 +1,13 @@
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int x = 10;
-    int *p = &x;
+    int a[5] = {10, 20, 30, 40, 50};
+    int *p = a;
 
-    *p = 50;
-
-    cout << x << endl;
+    cout << sizeof(a) << endl;
+    cout << sizeof(p) << endl;
 
     return 0;
 }
